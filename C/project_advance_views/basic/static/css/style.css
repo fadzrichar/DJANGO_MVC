@@ -126,6 +126,10 @@ nav li{
     font-size: 13px;
 }
 
+.form{
+    margin-top: 50px;
+}
+
 /* MENTOR CONTENT */
 
 .mentor-content{
@@ -199,4 +203,10 @@ nav li{
     vertical-align: middle;
     align-items: center;
     color: white;
+}
+
+/* INPUT */
+
+.input{
+    margin-top: 31px;
 }

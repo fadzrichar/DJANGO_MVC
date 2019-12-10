@@ -38,6 +38,17 @@
                 </div>
                 <div class="col-md-3"></div>
             </div>
+        </div>
+        {% endfor %}
+        <div class="container form">
+            <div class="row">
+                <div class="col-md-5"></div>
+                <div class="col-md-7 submit">
+                    <p class= "new_article">
+                        <a href="{% url 'basic:input_content' %}">Submit New Article</a>
+                    </p>
+                </div>
+            </div>
+        </div>
     </section>
-    {% endfor %}
 {% endblock %}
