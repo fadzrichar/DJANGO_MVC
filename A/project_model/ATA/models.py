@@ -51,4 +51,4 @@ class LiveCode(models.Model):
     mata_pelajaran = models.ForeignKey(MataPelajaran, on_delete = models.CASCADE)
 
     def __str__(self):
-        return "Live Code name: %s, Number of case: %d, Score weight: %s, Schedule: %s, Course: %s" % (self.nama, self.banyak_soal, self.bobot_nilai, self.tanggal_pelaksanaan, self.mata_pelajaran)
+        return "Live Code name: %s, Number of case: %d, Score weight: %s, Schedule: %s, Course: %s" % (self.nama_live_code, self.banyak_soal, self.bobot_nilai, self.tanggal_pelaksanaan, self.mata_pelajaran)

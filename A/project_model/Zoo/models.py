@@ -8,7 +8,7 @@ class Hewan(models.Model):
     umur = models.IntegerField(default = 0)
 
     def __str__(self):
-        return "Animal name: %s, Species: %s, Weight: %d, Age: %d" % (self.nama, self.species, self.berat, self.umur)
+        return "Animal name: %s, Species: %s, Weight: %d kg, Age: %d" % (self.nama, self.species, self.berat, self.umur)
 
 class Kandang(models.Model):
     nama = models.CharField(max_length = 255)
